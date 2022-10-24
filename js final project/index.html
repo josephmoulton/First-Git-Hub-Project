@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
     <title>Fliker</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div class="row">
+          <div class="overlay"></div>
+          <div class="header__container">
+            <div class="header__options">
+              <h1 class="header__logo coloured">Fliker</h1>
+              <div class="nav__links">
+                <a href="#" class="nav__link">Home</a>
+                <a href="#" class="nav__link">Find your car</a>
+                <a href="#" class="nav__link">
+                  <button class="btn coloured">Contact</button>
+                </a>
+              </div>
+            </div>
+            <div class="search__container">
+              <h2 class="Search__title">Browse Our Films</h2>
+              <div class="search__input--container">
+                <div class="searchContainer">
+                  <i class="fa fa-search searchIcon"></i>
+                  <input
+                    class="searchBox"
+                    type="search"
+                    name="search"
+                    placeholder="Search..."
+                  />
+                  <input type="submit" value="Search" class="searchButton" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>
 </html>
